@@ -1,0 +1,8 @@
+myenv/
+myenv1/
+myenv2/
+__pycache__/
+/data
+vectorstore/
+vectorstore2/
+model.bin/
