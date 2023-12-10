@@ -1,6 +1,6 @@
 env_of_index = "gcp-starter"
-api_key_pinecone = "46140c19-8200-4bd0-959a-5e71ef914492"
-api_token_for_my_github = "r8_UOX3WyTTZtmn7abceDmDrQaZ8uaBI8k3EcPRi"
+api_key_pinecone = "api token of your pincone"
+api_token_for_my_github = "api token for your github"
 
 import os
 import sys
