@@ -1,10 +1,10 @@
 import asyncio
 import textwrap
+import openai
 from main import (
     load_embedding_model,
     create_embeddings,
     load_qa_chain,
-    get_response,
     split_documents,
     pdf_loader,
     template,
@@ -12,10 +12,8 @@ from main import (
 from langchain.llms.ollama import Ollama
 from langchain.prompts import PromptTemplate
 
-
-
-
-
+# Set your OpenAI API key
+openai.api_key = "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"
 
 async def main():
     # Loading orca-mini from Ollama
@@ -26,7 +24,7 @@ async def main():
 
     # loading and splitting the documents
     docs = pdf_loader(
-        file_path="/home/c847/Desktop/Chatbots with LLms/ollama_models/data/instapdf.in-independence-day-speech-english-423.pdf"
+        file_path="/home/c847/Desktop/Chatbots with LLms/ollama_models/data/cricket.pdf"
     )
     documents = split_documents(documents=docs)
 
@@ -52,7 +50,28 @@ async def main():
         response_generator = get_response_incremental(question, chain)
         async for partial_response in response_generator:
             print(partial_response)
-            
+
+        # Use the OpenAI API to get a response
+        async with openai.Completion.create(
+            model="text-davinci-003",  # or another available GPT-3 model
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": question},
+            ],
+            stream=True,
+        ) as response:
+            for message in response.choices:
+                if message.role == "assistant":
+                    content = message.content
+                    # Split the response into chunks
+                    chunks = content.split("\n")
+                    for chunk in chunks:
+                        # Wrap the text for better output
+                        wrapped_chunk = textwrap.fill(chunk, width=100)
+                        print(wrapped_chunk)
+                        await asyncio.sleep(0.5)
+
+
 async def get_response_incremental(question, chain):
     # Getting response from chain
     response = chain({"query": question})
@@ -64,7 +83,8 @@ async def get_response_incremental(question, chain):
         # Wrap the text for better output
         wrapped_chunk = textwrap.fill(chunk, width=100)
         yield wrapped_chunk
-    await asyncio.sleep(0.5)
+        await asyncio.sleep(0.5)
+
 
 
 if __name__ == "__main__":
