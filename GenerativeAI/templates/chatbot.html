@@ -1,0 +1,102 @@
+<!-- templates/chatbot.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Add Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-glCJ8EBZR9RABcJRr6ZlNV/J5B82ATv6BTNO3pNEeIt6L0FmaLdF4HGFGbLb6UqD" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        /* Chatbot Container */
+        .chatbot-container {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            max-height: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Chatbot Header */
+        .chatbot-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Chatbot Body */
+        .chatbot-body {
+            padding: 10px;
+            overflow-y: auto;
+            max-height: 250px; /* Adjust as needed */
+        }
+
+        /* Chat Input */
+        .chat-input {
+            width: calc(100% - 20px);
+            margin: 0 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            Chatbot
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <p>Welcome to the chatbot!</p>
+        </div>
+        <input type="text" class="form-control chat-input" id="user-input" placeholder="Type your message..." onkeyup="checkEnter(event)">
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js CDN links -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-rT5tV86bPGnp0jRaW2DWtLreOdJOgJw51iF1AuQe4PK6ds6o2XgJDPaI4U8S5cC" crossorigin="anonymous"></script>
+
+    <script>
+        function checkEnter(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            var userInput = document.getElementById("user-input").value;
+
+            // Make an asynchronous request to your FastAPI endpoint
+            const response = await fetch('/generate_text', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    prompt: userInput,
+                }),
+            });
+
+            // Parse the JSON response
+            const result = await response.json();
+
+            // Update the chatbot body with the user input and the chatbot's response
+            var chatbotBody = document.getElementById("chatbot-body");
+            chatbotBody.innerHTML += `<p>User: ${userInput}</p><p>Chatbot: ${result.result}</p>`;
+
+            // Clear the user input
+            document.getElementById("user-input").value = '';
+        }
+    </script>
+</body>
+
+</html>
