@@ -49,7 +49,7 @@ Currently, no custom chatbot has been created; only pre-trained models have been
 The project relies on the following dependencies:
 - Python 3.x
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
-- [Langchain Library](#) (link to langchain, if available)
+- [Langchain Library](https://www.langchain.com/)
 - [Faiss](https://github.com/facebookresearch/faiss)
 - [Pinecone](https://www.pinecone.io/)
 
