@@ -40,9 +40,7 @@ The project is organized into several directories, each housing a distinct chatb
 5. **GenerativeAI:**
    - **Capabilities:** Conversational chatbot using Google's palm model.
 
-## Usage
 
-Created a Vectorstore of Google vertex AI, and stored the embeddings in it. Finally used a Palm Predictor client to predict the output of the question. 
 
 ## Dependencies
 
