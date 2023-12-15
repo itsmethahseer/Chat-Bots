@@ -42,7 +42,7 @@ The project is organized into several directories, each housing a distinct chatb
 
 ## Usage
 
-Currently, no custom chatbot has been created; only pre-trained models have been imported. The focus is on researching how to fine-tune models or implement question answering with document uploads.
+Created a Vectorstore of Google vertex AI, and stored the embeddings in it. Finally used a Palm Predictor client to predict the output of the question. 
 
 ## Dependencies
 
