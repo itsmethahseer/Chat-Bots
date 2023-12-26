@@ -5,7 +5,7 @@ from google.cloud import aiplatform
 palm_predictor = aiplatform.Predictor(client=aiplatform.getClient())
 
 # Define user prompt for chatbot
-user_prompt = "What is the Thahseer's graduation."
+user_prompt = "What is Thahseer's graduation."
 
 # Send prompt to Palm model and get response
 palm_response = palm_predictor.predict(instances={"text": user_prompt})
