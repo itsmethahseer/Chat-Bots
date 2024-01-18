@@ -17,6 +17,11 @@ The project is organized into several directories, each housing a distinct chatb
 
 5. **GenerativeAI:** Utilizes Google's palm model to create a chatbot for various conversational purposes.
 
+<<<<<<< HEAD
+=======
+6. **Bert-finetuned bot:** Utilizes Bert pre-trained model for creating chatbot with a json dataset. 
+
+>>>>>>> 36f0832d541d7befdb589bc819e8e7b1d2d6523a
 ## Chatbot Descriptions
 
 1. **QA_LLms:**
@@ -39,8 +44,13 @@ The project is organized into several directories, each housing a distinct chatb
 
 5. **GenerativeAI:**
    - **Capabilities:** Conversational chatbot using Google's palm model.
+<<<<<<< HEAD
 
 
+=======
+6. **Bert fine-tuned Bot:**
+   - **Capabilities:** Conversational chatbot using Bert Pre-trained model.
+>>>>>>> 36f0832d541d7befdb589bc819e8e7b1d2d6523a
 
 ## Dependencies
 
