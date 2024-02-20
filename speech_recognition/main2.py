@@ -1,21 +1,29 @@
 import whisper
+import speech_recognition
+import numpy as np
+# Load whisper model
+model = whisper.load_model('base')
 
-model = whisper.load_model("base")
+# Initialize the recognizer
+r = speech_recognition.Recognizer()
 
-# load audio and pad/trim it to fit 30 seconds
-audio = whisper.load_audio("03_Work_Tasks_and_Responsibilities_-_Zapp_English_Vocabulary_for_Work_2.3.mp3")
-audio = whisper.pad_or_trim(audio)
+# Continuously listen for audio
+while True:
+    try:
+        with speech_recognition.Microphone() as source:
+            print("recording started")
+            # Adjust silence_threshold for noise sensitivity
+            r.adjust_for_ambient_noise(source)
+            audio = r.listen(source, phrase_time_limit=10)
+            print("recording completed")
+        print(audio)
+        # Transcribe the audio chunk
+        audio = audio.astype(np.Float32)
+        result = model.transcribe(audio)
 
-# make log-Mel spectrogram and move to the same device as the model
-mel = whisper.log_mel_spectrogram(audio).to(model.device)
+        # Print the transcribed text
+        print(result['text'])
 
-# detect the spoken language
-_, probs = model.detect_language(mel)
-print(f"Detected language: {max(probs, key=probs.get)}")
-
-# decode the audio
-options = whisper.DecodingOptions()
-result = whisper.decode(model, mel, options)
-
-# print the recognized text
-print(result.text)
+    except KeyboardInterrupt:
+        print("Transcription stopped.")
+        break

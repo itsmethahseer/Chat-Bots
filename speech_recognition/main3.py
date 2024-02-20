@@ -38,5 +38,3 @@ def live_audio_to_text():
             except sr.RequestError as e:
                 # Handle request errors (e.g., no internet connection)
                 print(f"Could not request results ; {e}")
-
-live_audio_to_text()
