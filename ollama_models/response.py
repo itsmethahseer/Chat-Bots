@@ -26,7 +26,7 @@ async def main():
 
     # loading and splitting the documents
     docs = pdf_loader(
-        file_path="/home/c847/Desktop/Chatbots with LLms/ollama_models/data/instapdf.in-independence-day-speech-english-423.pdf"
+        file_path="/home/c847/Desktop/Chatbots with LLms/ollama_models/data/"
     )
     documents = split_documents(documents=docs)
 

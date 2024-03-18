@@ -1,6 +1,3 @@
-# speech recognition code by recording using pyaudio library , and saving into wave file using wave library finally converting into mp3 format using 
-# pydub library. And it passed into whisper model for text creation.
-
 import wave
 import tempfile
 import pyaudio
@@ -11,15 +8,11 @@ import threading
 import os 
 import pyttsx3
 
-
-
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
 RECORD_SECONDS = 10
-
-
 
 def start_recording(frames):
     p = pyaudio.PyAudio()
@@ -46,7 +39,7 @@ def start_recording(frames):
 def transcribe_audio(audio_file):
     try:
         model = whisper.load_model('base.en')
-        text = model.transcribe(audio_file)
+        text = model.transcribe(audio_file,temperature = 0.0)
         return text
     except Exception as e:
         print(f"Error during transcription: {e}")
@@ -72,8 +65,8 @@ def record_and_transcribe():
         audio.export("output.mp3", format="mp3", bitrate="128k")
 
         transcription = transcribe_audio("output.mp3")
-        print(transcription,'transcription')
         result = text_to_speech(transcription['text'])
+        print(transcription,'transcription')
         return transcription['text'] and result
     finally:
         # Clean up temporary files
@@ -82,8 +75,8 @@ def record_and_transcribe():
             os.remove("output.mp3")
         except Exception:
             pass
-
-# Function for converting generated output from text to audio.
+        
+        
 def text_to_speech(text):
     # Initialize the TTS engine
     engine = pyttsx3.init()
@@ -95,5 +88,6 @@ def text_to_speech(text):
     # Convert text to speech
     engine.say(text)
     engine.runAndWait()
-        
+    
+
 record_and_transcribe()
