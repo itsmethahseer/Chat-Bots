@@ -9,7 +9,7 @@ The project is organized into several directories, each housing a distinct chatb
 
 1. **QA_LLms:** Implements a chatbot capable of question answering and language translation. Utilizes Google/Flax-T5-XXL for question answering and Helsinki-NLP/opus-mt-en-{target_language} for language translation.
 
-2. **pdf_chatbot:** Contains a chatbot application for question answering from documents, such as PDFs. Utilizes Google/Flan-T5-XXL from Huggingface and employs faiss for embedding-related processes. The implementation is integrated into the langchain library.
+2. **chatbot_pdf:** Contains a chatbot application for question answering from documents, such as PDFs. Utilizes Google/Flan-T5-XXL from Huggingface and employs faiss for embedding-related processes. The implementation is integrated into the langchain library.
 
 3. **llama2chatbot:** Implements a chatbot using the llama2 pre-trained model. Offers enhanced text generation for question answering from documents. Utilizes Pinecone vector database for efficient processing.
 
