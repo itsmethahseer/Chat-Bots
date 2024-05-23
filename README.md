@@ -50,7 +50,7 @@ The project is organized into several directories, each housing a distinct chatb
    - **Capabilities:** Conversational chatbot using openai turbo model for streamed data augmented generation from documents.
 8. **Llavaforimage:**
    - **Capabilities:** Conversational chatbot using Llava model from images.
-10. **gpt4vision:**
+9. **gpt4vision:**
    - **Capabilities**: Conversational chatbot using gpt4vision model from images.    
 
 ## Dependencies
