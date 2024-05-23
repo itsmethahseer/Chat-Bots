@@ -9,15 +9,18 @@ The project is organized into several directories, each housing a distinct chatb
 
 1. **QA_LLms:** Implements a chatbot capable of question answering and language translation. Utilizes Google/Flax-T5-XXL for question answering and Helsinki-NLP/opus-mt-en-{target_language} for language translation.
 
-2. **chatbot_pdf:** Contains a chatbot application for question answering from documents, such as PDFs. Utilizes Google/Flan-T5-XXL from Huggingface and employs faiss for embedding-related processes. The implementation is integrated into the langchain library.
+2. **chatbot_pdf:** Contains a chatbot application for question answering from documents, such as PDFs. Utilizes **Google/Flan-T5-XXL**from Huggingface and employs faiss for embedding-related processes. The implementation is integrated into the langchain library.
 
-3. **llama2chatbot:** Implements a chatbot using the llama2 pre-trained model. Offers enhanced text generation for question answering from documents. Utilizes Pinecone vector database for efficient processing.
+3. **llama2chatbot:** Implements a chatbot using the **llama2** pre-trained model. Offers enhanced text generation for question answering from documents. Utilizes Pinecone vector database for efficient processing.
 
-4. **ollama_models:** Includes a chatbot for document-based question answering using the ollama class's fine-tuned model named orca-mini. Offers lower memory usage compared to llama2.
+4. **ollama_models:** Includes a chatbot for document-based question answering using the ollama class's fine-tuned model named **orca-mini**. Offers lower memory usage compared to llama2.
 
-5. **GenerativeAI:** Utilizes Google's palm model to create a chatbot for various conversational purposes.
+5. **GenerativeAI:** Utilizes **Google's palm** model to create a chatbot for various conversational purposes.
 
-6. **Bert-finetuned bot:** Utilizes Bert pre-trained model for creating chatbot with a json dataset. 
+6. **Bert-finetuned bot:** Utilizes **Bert pre-trained** model for creating chatbot with a json dataset.
+7. **Openai_turbo_chatbot:** Utilizes **Openai turbo model** for Retrival augmented generation from pdf with streaming response.
+8. **Llavaforimage:** Utilizes **Llava** multimodal for generating answer from image when we ask a question with prompt engineering.
+9. **gpt4vision:** Utilizes **gpt4vision** multimodal for retrival augmented generation for texts, tables , diagram summarization etc from images.
 
 ## Chatbot Descriptions
 
@@ -43,6 +46,12 @@ The project is organized into several directories, each housing a distinct chatb
    - **Capabilities:** Conversational chatbot using Google's palm model.
 6. **Bert fine-tuned Bot:**
    - **Capabilities:** Conversational chatbot using Bert Pre-trained model.
+7. **Openai_turbo_chatbot:**
+   - **Capabilities:** Conversational chatbot using openai turbo model for streamed data augmented generation from documents.
+8. **Llavaforimage:**
+   - **Capabilities:** Conversational chatbot using Llava model from images.
+10. **gpt4vision:**
+   - **Capabilities**: Conversational chatbot using gpt4vision model from images.    
 
 ## Dependencies
 
