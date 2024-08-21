@@ -4,13 +4,16 @@ from PyPDF2 import PdfReader
 
 from langchain import hub
 from langchain_chroma import Chroma
-from langchain.document_loaders import PyMuPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-file_path = "Thahseer updated.pdf"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+openai_key = os.getenv("OPENAI_API_KEY")
+file_path = "/home/thahseer/Downloads/Muhammed Thahseer (3).pdf"
 def pdf_loader(file_path):
     loader = PyMuPDFLoader(file_path=file_path)
     # Loading the document file
@@ -27,7 +30,7 @@ vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings
 # Retrieve and generate using the relevant snippets of the blog.
 retriever = vectorstore.as_retriever()
 prompt = hub.pull("rlm/rag-prompt")
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0,api_key=openai_key)
 
 
 def format_docs(docs):

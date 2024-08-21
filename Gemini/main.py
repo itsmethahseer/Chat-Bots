@@ -14,7 +14,7 @@ from collections import defaultdict
 import tempfile
 
 example_json_structure = """
-        {
+{
           "invoices": [
             {
               "invoice_number": "string",
@@ -45,7 +45,7 @@ example_json_structure = """
             }
           ]
         }
-"""
+
 common_prompt = f"""
                                 Understand the invoice structure and accurately extract the following information:
     

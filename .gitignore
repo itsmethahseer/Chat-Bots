@@ -6,3 +6,4 @@ __pycache__/
 vectorstore/
 vectorstore2/
 model.bin/
+resumechatbot/.env
