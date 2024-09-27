@@ -1,0 +1,16 @@
+Train the YOLO model using our own dataset for detecting specific part from images.
+
+1) run the resize_rotate.py file by giving the images(data *) you have
+2) run the generate_doc_set.py file by giving results from the first script (rotated_resized_imgs)
+3) run the final_set.py file by giving the previous outputs and also create few background images , you can download from google named 'background images'.
+
+finally we will get a folder final_set which contains images and masks, we need images. Then we split it using a python script named 
+Datasplit.py
+
+Finally we have -a dataset like images-train
+                                      - val
+                                labels - train
+                                       - val
+then by creating the yaml file of the data you can train the YOLO model.
+
+
