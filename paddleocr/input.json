@@ -1,0 +1,119 @@
+[{
+    "tokenized_text": [
+        "FEDERALREPUBLICOF", 
+        "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ADEBAYO-ABDULLAHI", "FIRSTNAME", "CHIDIEBEREIDONGESIT", "MIDOLE", "NAME", "SIKIRATU", "DOB", "03/05/1979", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "6.5M", "5652123412341234", "EXPIRY", "06/16", "NGA", "Vimc"
+    ],
+    "ner": [
+      [
+        0,
+        1,
+        "Title"
+      ],
+      [
+        20,
+        20,
+        "Nigeria Id"
+      ]
+    ]
+  },
+
+  {"tokenized_text":["FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "JONATHAN", "SURNAME", "FIRSTNAME", "GOODLUCK", "MIDDLE", "NAME", "EBELE", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "20NOV57", "28AUG", "14", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", 
+  "5797", "2678", "4245", "0618", "NGA", "mc", "EXPIRY", "08/19", "DOCUMENT.NO", "5394260618"
+],
+"ner":[[0,3,"Title"],[13,16,"Nigeria Id"]]},
+
+{"tokenized_text":["FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ABIOLA", "FIRST", "NAME", "AMUSAT", "MIDDLE", "NAME", "AMUSAT", "DATE", "OFBIRTH", "ISSUE", "DATE", "04", "SEP", "91", "18FEB19", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "48cm", "53942678", "42450618", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "02/20", "9484848484"
+],"ner":[[0,2,"Title"],[28,29,"Nigeria Id"]]},
+
+{"tokenized_text":["FEDERAL","REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ABIOLA", "FIRST", "NAME", "AMUSAT", "MIDDLE", "NAME", "AMUSAT", "DATE", "OFBIRTH", "ISSUE", "DATE", "04", "SEP", "91", "18FEB19", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "48cm", "53942678", "42450618", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "02/20", "9484848484"
+],"ner":[[0,3,"Title"],[29,30,"Nigeria Id"]]},
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKORO", "FIRSTNAME", "CHINWE", "MIDOLE", "NAME", "NWANNE", "DOB", "12/08/1985", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.8M", "6345212341234123", "EXPIRY", "10/18", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 20, 20, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "CHUKWUEMEKA", "MIDDLE", "NAME", "OBI", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "15JAN73", "25MAR14", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.65m", "6245892678123", "NGA", "mc", "EXPIRY", "05/20", "DOCUMENT.NO", "7589436245" ], "ner": [ [ 0, 3, "Title" ], [ 17, 20, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "NWOKOLO", "FIRST", "NAME", "NWANYINNYA", "MIDDLE", "NAME", "NWOKOLO", "DATE", "OFBIRTH", "ISSUE", "DATE", "23", "OCT", "96", "10MAY18", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "52cm", "8174632112345", "5384621890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "08/21", "6576576576" ], "ner": [ [ 0, 2, "Title" ], [ 25, 26, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "IGWE", "FIRST", "NAME", "OBINNA", "MIDDLE", "NAME", "IGWE", "DATE", "OFBIRTH", "ISSUE", "DATE", "02", "MAR", "87", "22FEB16", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "56cm", "4638271234987", "6584632012345", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "04/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 27, 28, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKOYE", "FIRSTNAME", "CHIOMA", "MIDOLE", "NAME", "NWANYI", "DOB", "25/11/1991", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.5M", "935672348901234", "EXPIRY", "02/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "IKECHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "10AUG80", "12JUN15", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "2134987621874", "NGA", "mc", "EXPIRY", "09/19", "DOCUMENT.NO", "6245892678123" ], "ner": [ [ 0, 3, "Title" ], [ 18, 21, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ANWANA", "FIRST", "NAME", "EZEKIEL", "MIDDLE", "NAME", "ANWANA", "DATE", "OFBIRTH", "ISSUE", "DATE", "30", "MAY", "94", "15MAR17", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "58cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "07/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 24, 25, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ODILI", "FIRST", "NAME", "IFEANYI", "MIDDLE", "NAME", "ODILI", "DATE", "OFBIRTH", "ISSUE", "DATE", "18", "JUL", "88", "28FEB14", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "54cm", "8174632112345", "4638271234987", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "03/19", "935672348901234" ], "ner": [ [ 0, 3, "Title" ], [ 26, 27, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ONYEKA", "FIRSTNAME", "CHIAMAKA", "MIDOLE", "NAME", "ONYEKA", "DOB", "05/07/1993", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.2M", "6245892678123", "EXPIRY", "01/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 18, 18, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "UGOCHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "25FEB85", "16AUG13", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", "7589436245890", "NGA", "mc", "EXPIRY", "06/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKORO", "FIRSTNAME", "CHINWE", "MIDOLE", "NAME", "NWANNE", "DOB", "12/08/1985", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.8M", "6345212341234123", "EXPIRY", "10/18", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 20, 20, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "CHUKWUEMEKA", "MIDDLE", "NAME", "OBI", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "15JAN73", "25MAR14", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.65m", "6245892678123", "NGA", "mc", "EXPIRY", "05/20", "DOCUMENT.NO", "7589436245" ], "ner": [ [ 0, 3, "Title" ], [ 17, 20, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "NWOKOLO", "FIRST", "NAME", "NWANYINNYA", "MIDDLE", "NAME", "NWOKOLO", "DATE", "OFBIRTH", "ISSUE", "DATE", "23", "OCT", "96", "10MAY18", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "52cm", "8174632112345", "5384621890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "08/21", "6576576576" ], "ner": [ [ 0, 2, "Title" ], [ 25, 26, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "IGWE", "FIRST", "NAME", "OBINNA", "MIDDLE", "NAME", "IGWE", "DATE", "OFBIRTH", "ISSUE", "DATE", "02", "MAR", "87", "22FEB16", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "56cm", "4638271234987", "6584632012345", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "04/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 27, 28, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKOYE", "FIRSTNAME", "CHIOMA", "MIDOLE", "NAME", "NWANYI", "DOB", "25/11/1991", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.5M", "935672348901234", "EXPIRY", "02/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "IKECHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "10AUG80", "12JUN15", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "2134987621874", "NGA", "mc", "EXPIRY", "09/19", "DOCUMENT.NO", "6245892678123" ], "ner": [ [ 0, 3, "Title" ], [ 18, 21, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ANWANA", "FIRST", "NAME", "EZEKIEL", "MIDDLE", "NAME", "ANWANA", "DATE", "OFBIRTH", "ISSUE", "DATE", "30", "MAY", "94", "15MAR17", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "58cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "07/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 24, 25, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "ODILI", "FIRST", "NAME", "IFEANYI", "MIDDLE", "NAME", "ODILI", "DATE", "OFBIRTH", "ISSUE", "DATE", "18", "JUL", "88", "28FEB14", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "54cm", "8174632112345", "4638271234987", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "03/19", "935672348901234" ], "ner": [ [ 0, 3, "Title" ], [ 26, 27, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ONYEKA", "FIRSTNAME", "CHIAMAKA", "MIDOLE", "NAME", "ONYEKA", "DOB", "05/07/1993", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.2M", "6245892678123", "EXPIRY", "01/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 18, 18, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "UGOCHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "25FEB85", "16AUG13", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", "7589436245890", "NGA", "mc", "EXPIRY", "06/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] } ,
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ONYEKA", "FIRSTNAME", "CHIAMAKA", "MIDOLE", "NAME", "ONYEKA", "DOB", "12/08/1995", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.2M", "935672348901234", "EXPIRY", "01/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "UGOCHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "25FEB85", "20AUG13", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", "7589436245890", "NGA", "mc", "EXPIRY", "06/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "EZEIFE", "FIRST", "NAME", "IKECHUKWU", "MIDDLE", "NAME", "EZEIFE", "DATE", "OFBIRTH", "ISSUE", "DATE", "05", "JAN", "92", "10MAR17", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "50cm", "8174632112345", "6245892678123", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "09/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 24, 25, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBASI", "FIRST", "NAME", "CHUKWUEMEKA", "MIDDLE", "NAME", "OBASI", "DATE", "OFBIRTH", "ISSUE", "DATE", "15", "MAR", "89", "20SEP15", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "55cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "02/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 26, 27, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "NWANKWO", "FIRSTNAME", "NWANYINNYA", "MIDOLE", "NAME", "NWANKWO", "DOB", "20/02/1993", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.1M", "6245892678123", "EXPIRY", "07/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 18, 18, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBI", "FIRSTNAME", "CHINWEIKE", "MIDDLE", "NAME", "OBI", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "18JAN82", "15NOV14", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "7589436245890", "NGA", "mc", "EXPIRY", "05/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "NWOKOLO", "FIRST", "NAME", "NWANYINNYA", "MIDDLE", "NAME", "NWOKOLO", "DATE", "OFBIRTH", "ISSUE", "DATE", "23", "OCT", "96", "10JUN18", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "52cm", "8174632112345", "6245892678123", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "08/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 25, 26, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "IGWE", "FIRST", "NAME", "OBINNA", "MIDDLE", "NAME", "IGWE", "DATE", "OFBIRTH", "ISSUE", "DATE", "02", "MAR", "87", "25MAR16", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "56cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "04/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 27, 28, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKORO", "FIRSTNAME", "CHIOMA", "MIDOLE", "NAME", "NWANYI", "DOB", "15/11/1992", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.5M", "6245892678123", "EXPIRY", "03/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "IKECHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "10AUG80", "20JUN15", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "8174632112345", "NGA", "mc", "EXPIRY", "08/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 18, 21, "Nigeria Id" ] ] } ,
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ONYEKA", "FIRSTNAME", "CHIAMAKA", "MIDOLE", "NAME", "ONYEKA", "DOB", "18/08/1995", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.2M", "935672348901234", "EXPIRY", "02/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "UGOCHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "25FEB85", "25AUG13", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", "7589436245890", "NGA", "mc", "EXPIRY", "07/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "EZEIFE", "FIRST", "NAME", "IKECHUKWU", "MIDDLE", "NAME", "EZEIFE", "DATE", "OFBIRTH", "ISSUE", "DATE", "05", "JAN", "92", "15APR17", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "50cm", "8174632112345", "6245892678123", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "10/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 24, 25, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBASI", "FIRST", "NAME", "CHUKWUEMEKA", "MIDDLE", "NAME", "OBASI", "DATE", "OFBIRTH", "ISSUE", "DATE", "15", "MAR", "89", "25OCT15", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "55cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "03/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 26, 27, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "NWANKWO", "FIRSTNAME", "NWANYINNYA", "MIDOLE", "NAME", "NWANKWO", "DOB", "25/02/1993", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.1M", "6245892678123", "EXPIRY", "08/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 18, 18, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBI", "FIRSTNAME", "CHINWEIKE", "MIDDLE", "NAME", "OBI", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "18JAN82", "20DEC14", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "7589436245890", "NGA", "mc", "EXPIRY", "06/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "NWOKOLO", "FIRST", "NAME", "NWANYINNYA", "MIDDLE", "NAME", "NWOKOLO", "DATE", "OFBIRTH", "ISSUE", "DATE", "23", "OCT", "96", "15JUL18", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "52cm", "8174632112345", "6245892678123", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "09/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 25, 26, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "IGWE", "FIRST", "NAME", "OBINNA", "MIDDLE", "NAME", "IGWE", "DATE", "OFBIRTH", "ISSUE", "DATE", "02", "MAR", "87", "30APR16", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "56cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "05/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 27, 28, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "OKORO", "FIRSTNAME", "CHIOMA", "MIDOLE", "NAME", "NWANYI", "DOB", "20/11/1992", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.5M", "6245892678123", "EXPIRY", "04/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "IKECHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "10AUG80", "25JUN15", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "8174632112345", "NGA", "mc", "EXPIRY", "09/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 18, 21, "Nigeria Id" ] ] },
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "ONYEKA", "FIRSTNAME", "CHIAMAKA", "MIDOLE", "NAME", "ONYEKA", "DOB", "15/08/1995", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.2M", "935672348901234", "EXPIRY", "03/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 19, 19, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "NWACHUKWU", "SURNAME", "FIRSTNAME", "UGOCHUKWU", "MIDDLE", "NAME", "NWACHUKWU", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "25FEB85", "30SEP13", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.75m", "7589436245890", "NGA", "mc", "EXPIRY", "08/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "EZEIFE", "FIRST", "NAME", "IKECHUKWU", "MIDDLE", "NAME", "EZEIFE", "DATE", "OFBIRTH", "ISSUE", "DATE", "05", "JAN", "92", "20MAY17", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "50cm", "8174632112345", "6245892678123", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "11/20", "4684621876543" ], "ner": [ [ 0, 2, "Title" ], [ 24, 25, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBASI", "FIRST", "NAME", "CHUKWUEMEKA", "MIDDLE", "NAME", "OBASI", "DATE", "OFBIRTH", "ISSUE", "DATE", "15", "MAR", "89", "30NOV15", "NATIONALITY", "SEX", "HEIGHT", "NGA", "M", "55cm", "9345678211345", "7589436245890", "NGA", "EXPIRY", "DOCUMENT", "NUMBER", "Nimc", "04/19", "8174632112345" ], "ner": [ [ 0, 3, "Title" ], [ 26, 27, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERALREPUBLICOF", "NIGERIA", "National", "ldentity", "Card", "SURNAME", "NWANKWO", "FIRSTNAME", "NWANYINNYA", "MIDOLE", "NAME", "NWANKWO", "DOB", "28/02/1993", "GENDER", "F", "NATONALITYNIGERIANHEIGHT", "5.1M", "6245892678123", "EXPIRY", "09/20", "NGA", "Vimc" ], "ner": [ [ 0, 1, "Title" ], [ 18, 18, "Nigeria Id" ] ] },
+
+{ "tokenized_text": [ "FEDERAL", "REPUBLIC", "OF", "NIGERIA", "National", "Identity", "Card", "SURNAME", "OBI", "FIRSTNAME", "CHINWEIKE", "MIDDLE", "NAME", "OBI", "DATE", "OF", "BIRTH", "ISSUE", "DATE", "18JAN82", "25JAN15", "NATIONALITY", "NGA", "SEX", "HEIGHT", "M", "1.70m", "7589436245890", "NGA", "mc", "EXPIRY", "07/19", "DOCUMENT.NO", "9345678211345" ], "ner": [ [ 0, 3, "Title" ], [ 19, 22, "Nigeria Id" ] ] }
+
+]

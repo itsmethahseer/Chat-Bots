@@ -1,0 +1,1 @@
+input.json is a dataset for finetuning with GLiner NER model. where will specify labels want to recognize and it's words positions from zero.
